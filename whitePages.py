@@ -1,9 +1,6 @@
 print ("WELCOME!")# Print the message
 
 
-enter = raw_input("Press ENTER to continue... ") # set the variable named enter to get input from the user
-
-if enter == "" : # set how to response when the enter variable gets nothing for the input
     filename = raw_input("Set the file name. >> ") # create a filename variable that gets the input from the user
 
     with open(filename, 'w') as p: # open the file that user had created above in writing mode
